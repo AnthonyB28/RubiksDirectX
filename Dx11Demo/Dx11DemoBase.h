@@ -4,6 +4,17 @@
 // #include<d3dx11.h>
 // #include<DxErr.h>
 
+/*
+	Template class for DX11
+	NOTE: Due to the changes to DX11 and the Windows SDK, the d3dx11 and DxErr libraries are gone. 
+	Its now just d3d11. Legacy functions removed.
+
+	Inherit this class to get basic functionality for DX11. Rendering, Update, and Loading.
+	Initialize will allocate all the Device, target view, and swapchain driver setup that is needed for DX11.
+	If hardware does not support DX11, we fall back to DX10.1 and DX10.
+	Upon deletion, Shutdown() is called, releasing all the hardware rescources back to the system.
+*/
+
 class Dx11DemoBase
 {
 public:

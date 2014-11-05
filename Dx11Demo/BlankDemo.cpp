@@ -1,20 +1,28 @@
 #include"BlankDemo.h"
+
+
 BlankDemo::BlankDemo()
 {
 }
+
 BlankDemo::~BlankDemo()
 {
 }
+
 bool BlankDemo::LoadContent()
 {
 	return true;
 }
+
 void BlankDemo::UnloadContent()
 {
 }
+
 void BlankDemo::Update(float dt)
 {
 }
+
+// Blank screen
 void BlankDemo::Render()
 {
 	if (d3dContext_ == 0)
