@@ -38,6 +38,14 @@ Icon
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
+Debug/
+Release/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*.filters
+*.user
+*.sdf
+*.suo
+*.opensdf
